@@ -1,0 +1,25 @@
+# Text Analyzer - Strategic Analysis System
+# Production requirements for comprehensive text analysis
+
+# Core dependencies
+psutil>=5.8.0              # System monitoring and performance metrics
+pathlib2>=2.3.7 ; python_version<"3.6"  # Backport for older Python versions
+
+# Optional dependencies for enhanced functionality
+chardet>=4.0.0             # Enhanced character encoding detection
+unicodedata2>=14.0.0       # Enhanced Unicode normalization (Python < 3.8)
+
+# Development and testing dependencies (optional)
+pytest>=6.0.0              # Testing framework
+pytest-cov>=3.0.0          # Coverage reporting
+black>=22.0.0              # Code formatting
+flake8>=4.0.0              # Code linting
+mypy>=0.910                # Type checking
+
+# Documentation dependencies (optional)
+sphinx>=4.0.0              # Documentation generation
+sphinx-rtd-theme>=1.0.0    # Documentation theme
+
+# Performance optimization (optional)
+cython>=0.29.0             # Optional compilation acceleration
+numba>=0.56.0              # Optional JIT compilation for numerical operations

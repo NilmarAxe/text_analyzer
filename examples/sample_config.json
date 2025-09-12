@@ -1,0 +1,51 @@
+{
+  "analysis": {
+    "top_words_count": 15,
+    "case_sensitive": false,
+    "min_word_length": 2,
+    "max_word_length": 50,
+    "remove_stop_words": true,
+    "stop_words_language": "english",
+    "word_pattern": "\\b[a-zA-ZÀ-ÿ]+\\b",
+    "normalize_unicode": true,
+    "preserve_contractions": true,
+    "remove_digits": false,
+    "custom_stop_words": ["etc", "eg", "ie"]
+  },
+  "output": {
+    "default_format": "html",
+    "report_width": 100,
+    "generate_all_formats": false,
+    "include_statistics": true,
+    "detailed_analysis": true,
+    "export_formats": ["txt", "json", "html"]
+  },
+  "performance": {
+    "memory_limit_mb": 1024,
+    "enable_optimization": true,
+    "detailed_analysis": true,
+    "performance_profiling": false,
+    "chunk_size": 8192,
+    "max_memory_usage": 536870912
+  },
+  "files": {
+    "supported_extensions": [".txt", ".text", ".log", ".md"],
+    "encoding_preference": ["utf-8", "utf-16", "latin-1", "cp1252"],
+    "max_file_size_mb": 100,
+    "min_file_size": 1
+  },
+  "logging": {
+    "log_level": "INFO",
+    "enable_file_logging": true,
+    "log_file": "logs/text_analyzer.log",
+    "enable_console_logging": true,
+    "enable_performance_logging": true
+  },
+  "advanced": {
+    "enable_batch_optimization": true,
+    "parallel_processing": false,
+    "cache_results": false,
+    "strict_validation": true,
+    "enable_warnings": true
+  }
+}
