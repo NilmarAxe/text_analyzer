@@ -1,6 +1,3 @@
-# Text Analyzer - Strategic .gitignore
-# Comprehensive exclusion rules for professional development
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -32,7 +32,6 @@ from .argument_parser import ArgumentParser, ParsedArguments, parse_command_line
 
 class CLIInterface:
     """
-    Strategic CLI interface implementing INTJ systematic approach.
     Comprehensive user interaction with error handling and performance monitoring.
     """
     

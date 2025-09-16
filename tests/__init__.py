@@ -4,7 +4,7 @@ Test suite initialization for Text Analyzer.
 
 # Test suite metadata
 __version__ = "1.0.0"
-__author__ = "Strategic Analysis Systems - Test Suite"
+__author__ = "Ax"
 __description__ = "Comprehensive test suite for Text Analyzer system"
 
 # Test configuration

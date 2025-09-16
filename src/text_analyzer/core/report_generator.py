@@ -418,7 +418,6 @@ class HTMLReportFormatter(ReportFormatter):
 class ReportGenerator:
     """
     Strategic report generation system with multiple format support.
-    Implements INTJ principles: systematic approach, comprehensive output, and flexibility.
     """
     
     def __init__(self):

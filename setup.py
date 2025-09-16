@@ -22,10 +22,9 @@ else:
 
 # Package metadata
 setup(
-    name="text-analyzer",
+    name="Ax",
     version="1.0.0",
-    author="Strategic Analysis Systems",
-    author_email="contact@strategic-analysis.com",
+    author="Ax",
     description="Strategic text analysis system with comprehensive frequency analysis and statistical reporting",
     long_description=long_description,
     long_description_content_type="text/markdown",

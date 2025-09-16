@@ -42,7 +42,6 @@ class WordAnalysis:
 class TextProcessor:
     """
     Strategic text processing with systematic optimization.
-    Implements INTJ principles: efficiency, thoroughness, and systematic analysis.
     """
     
     def __init__(self, config: Optional[Dict[str, Any]] = None):

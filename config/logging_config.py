@@ -12,7 +12,6 @@ from .settings import SystemConfig, EnvironmentConfig
 
 class LoggerSetup:
     """
-    Centralized logger configuration following INTJ systematic approach.
     Provides structured logging with multiple output channels and severity levels.
     """
     

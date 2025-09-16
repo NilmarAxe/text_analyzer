@@ -38,7 +38,6 @@ class ParsedArguments:
 class ArgumentParser:
     """
     Strategic CLI argument parser with comprehensive validation.
-    Implements INTJ principles: thorough planning, systematic validation, clear documentation.
     """
     
     def __init__(self):

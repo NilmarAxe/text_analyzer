@@ -16,7 +16,7 @@ from .utils import (
 
 # Package metadata
 __version__ = "1.0.0"
-__author__ = "Strategic Analysis Systems"
+__author__ = "Ax"
 __description__ = "Comprehensive text analysis system with systematic approach to frequency analysis and statistical reporting"
 
 # Export main classes and functions

@@ -27,7 +27,6 @@ FileInfo = namedtuple('FileInfo', ['path', 'size', 'encoding', 'lines', 'checksu
 class FileHandler:
     """
     Strategic file handling with systematic approach to I/O operations.
-    Implements INTJ principles: thorough planning, error anticipation, and optimization.
     """
     
     def __init__(self):

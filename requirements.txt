@@ -1,6 +1,3 @@
-# Text Analyzer - Strategic Analysis System
-# Production requirements for comprehensive text analysis
-
 # Core dependencies
 psutil>=5.8.0              # System monitoring and performance metrics
 pathlib2>=2.3.7 ; python_version<"3.6"  # Backport for older Python versions
